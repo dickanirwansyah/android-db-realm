@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".ActivityDetail">
+
+    <EditText
+        android:id="@+id/edtNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIM"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edtNama"
+        android:layout_below="@id/edtNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="text"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        >
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_marginTop="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Update"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_marginTop="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_marginTop="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Cancel"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
